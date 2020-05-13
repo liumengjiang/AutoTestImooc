@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <parameter name ="username" value="m13031155057@163.com"/>
+    <parameter name ="password" value="1111"/>
+    <test name="Test1">
+        <classes>
+            <class name="com.selenium.wushuaiTest.AppTest"/>
+            <class name="com.selenium.wushuaiTest.testCase.SuiteTestLogin"/>
+            <class name="com.selenium.wushuaiTest.testCase.SuiteTestBuy"/>
+
+        </classes>
+    </test>
+
+
+
+</suite>

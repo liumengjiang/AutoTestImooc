@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--多线程-->
+<suite name="Suite" parallel="true" thread-count="2">
+    <parameter name ="username" value="m13031155057@163.com"/>
+    <parameter name ="password" value="1111"/>
+  <test name="Test1">
+    <classes>
+      <class name="com.selenium.wushuaiTest.AppTest"/>
+      <class name="com.selenium.wushuaiTest.testCase.SuiteTestLogin"/>
+      <class name="com.selenium.wushuaiTest.testCase.SuiteTestBuy"/>
+
+    </classes>
+  </test>
+
+  <test name="Test2">
+    <classes>
+      <class name="com.selenium.wushuaiTest.AppTest"/>
+      <class name="com.selenium.wushuaiTest.testCase.SuiteTestLogin"/>
+
+
+    </classes>
+  </test>
+
+
+
+</suite>
